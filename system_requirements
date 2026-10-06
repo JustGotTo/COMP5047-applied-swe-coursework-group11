@@ -7,4 +7,28 @@ This file will contain system requirements for UniDorm System, including specifi
 
 3. UniDorm Accommodation Office Sub-system requirements:
 
-4. UniDorm Platform Operator Sub-system requirements:
+## 4. UniDorm Platform Operator Sub-system requirements:
+### Security Requirements:
+
+  Function must feature a tenant data encryption system, encrypting database and backups with AES-256 algorithm to protect the information from direct exposure.
+  Connection must feature HTTPS protocol with TLS in place, in order to ensure full data protection in transit, to avoid from identity theft, data leakage or credentials theft
+  Software should ensure confidentiality integrity, as each user is entitled for their private data to be protected. Data should be properly separated between the university tenants to ensure full data protection. It must ensure that users or operators can only access the data of tenants which they have appropriate access to.
+  Introduce access levels with clearly defined gates and Role Based Access Control (RBAC), to ensure a user cannot access sensitive data or alter the state of the infrastructure. Only give users access to functions or data they need to use the software. Define roles such as: User, University Administrator, Platform Administrator, Accommodation Operator.
+  System must validate each input into the system before processing. It must also implement the rate limiters to avoid excess amount of automated requests. This is done to avoid bot attacks and prevent automated actions from slowing down the system.
+
+### Performance Requirements:
+
+  System must be able to process at least 1000 queries simultaneously, for example several requests from users, without noticeable reduction in system response time. At least 95% of requests must be completed within 2 seconds to ensure timely response
+  Introduce cache for  frequently accessed tenant configuration data while application runs, which will allow to pre-load the application elements and remove the need to load them over again every time you open the page.
+  System should perform the security checks and decide which data user has access to without affecting performance for the user. It should feature background work in a separate thread to avoid performance issues.
+
+### Reliability requirements:
+
+  A failed tenant operation must produce a relevant error message and signal the user of the reasons for the application error, including a relevant error code. It must clearly signalise that application was not successful.
+	System must handle exceptions with error codes, to avoid exposing user to source code.
+	System must produce configurable back-ups to revert the changes, which must be stored on the server with access through request with sufficient authority level. System could contain a full change log in the cloud with constant access.
+	Failed tenant query or a failure affecting individual application must be handled separately to the rest of the users, to avoid disruption of application functionality to the rest of the users.
+### Scalability Requirements:
+	System must be able to support the expected amount of tenants for the university and allow for at least extra 25% additional load without reduction of performance.
+	System must produce sufficient tenant identification numbers which should indicate the relation to particular university and produce a unique reference to each student in the system.
+	Resource consumption for one tenant should not cause interruption of services for the entire server or affect the entire system.
