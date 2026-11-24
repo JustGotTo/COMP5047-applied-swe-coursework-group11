@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_iQ3doOdgEfGyi7MFXjpnTg" name="COMP5047_Student_Subsystem">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_iXS1wOdgEfGyi7MFXjpnTg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1d5TMOdgEfGyi7MFXjpnTg" name="Student Subsystem">
+    <packagedElement xmi:type="uml:Class" xmi:id="_QeTJAOdiEfGyi7MFXjpnTg" name="Student Mobile Application Subsystem" useCase="_p6jEcOdjEfGyi7MFXjpnTg">
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_p6jEcOdjEfGyi7MFXjpnTg" name="FR-ST-2.1 - Unlock Authorised Doors Using DIgital Key" subject="_QeTJAOdiEfGyi7MFXjpnTg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_iJ8O4OdjEfGyi7MFXjpnTg" name="Student"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6KJqIOdkEfGyi7MFXjpnTg" memberEnd="_6KLfUOdkEfGyi7MFXjpnTg _6KLfUedkEfGyi7MFXjpnTg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6KK4QOdkEfGyi7MFXjpnTg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6KK4QedkEfGyi7MFXjpnTg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_6KLfUOdkEfGyi7MFXjpnTg" name="fr-st-2.1 - unlock authorised doors using digital key" type="_p6jEcOdjEfGyi7MFXjpnTg" association="_6KJqIOdkEfGyi7MFXjpnTg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_6KLfUedkEfGyi7MFXjpnTg" name="student" type="_iJ8O4OdjEfGyi7MFXjpnTg" association="_6KJqIOdkEfGyi7MFXjpnTg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_m0njYOdlEfGyi7MFXjpnTg" name="Electronic Door Lock"/>
+  </packagedElement>
+</uml:Model>
