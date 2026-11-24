@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WardenProfile0000000000" name="WardenProfile" metaclassReference="_WP_mcref_Class">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WP_ann" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_WardenProfileEPackage0000" name="WardenProfile" nsURI="http:///schemas/WardenProfile/_WardenProfileEPackage0000/1" nsPrefix="WardenProfile">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WP_ec_Service" name="Service">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WP_eca_Service" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WP_st_Service"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WP_ecr_Service" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WP_ec_RestController" name="RestController">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WP_eca_RestController" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WP_st_RestController"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WP_ecr_RestController" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WP_ec_Scheduled_job" name="Scheduled_job">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WP_eca_Scheduled_job" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WP_st_Scheduled_job"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WP_ecr_Scheduled_job" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WP_ec_Entity" name="Entity">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WP_eca_Entity" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WP_st_Entity"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WP_ecr_Entity" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WP_ec_Value_object" name="Value_object">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WP_eca_Value_object" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WP_st_Value_object"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WP_ecr_Value_object" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WP_ec_Domain_service" name="Domain_service">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WP_eca_Domain_service" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WP_st_Domain_service"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WP_ecr_Domain_service" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WP_ec_Aggregate_root" name="Aggregate_root">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WP_eca_Aggregate_root" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WP_st_Aggregate_root"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WP_ecr_Aggregate_root" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WP_ec_Adapter" name="Adapter">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WP_eca_Adapter" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WP_st_Adapter"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WP_ecr_Adapter" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WP_ec_microservice" name="microservice">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WP_eca_microservice" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WP_st_microservice"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WP_ecr_microservice" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WP_ec_frontend" name="frontend">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WP_eca_frontend" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WP_st_frontend"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WP_ecr_frontend" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WP_ec_subsystem" name="subsystem">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WP_eca_subsystem" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WP_st_subsystem"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WP_ecr_subsystem" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_WP_mcref_Class" alias="Class">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_WP_pi">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_WP_st_Service" name="Service">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WP_base_Service" name="base_Class" association="_WP_ext_Service">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_WP_ext_Service" name="E_Service_Class1" memberEnd="_WP_ee_Service _WP_base_Service">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_WP_ee_Service" name="extension_Service" type="_WP_st_Service" aggregation="composite" association="_WP_ext_Service"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_WP_st_RestController" name="RestController">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WP_base_RestController" name="base_Class" association="_WP_ext_RestController">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_WP_ext_RestController" name="E_RestController_Class1" memberEnd="_WP_ee_RestController _WP_base_RestController">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_WP_ee_RestController" name="extension_RestController" type="_WP_st_RestController" aggregation="composite" association="_WP_ext_RestController"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_WP_st_Scheduled_job" name="Scheduled job">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WP_base_Scheduled_job" name="base_Class" association="_WP_ext_Scheduled_job">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_WP_ext_Scheduled_job" name="E_Scheduled_job_Class1" memberEnd="_WP_ee_Scheduled_job _WP_base_Scheduled_job">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_WP_ee_Scheduled_job" name="extension_Scheduled_job" type="_WP_st_Scheduled_job" aggregation="composite" association="_WP_ext_Scheduled_job"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_WP_st_Entity" name="Entity">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WP_base_Entity" name="base_Class" association="_WP_ext_Entity">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_WP_ext_Entity" name="E_Entity_Class1" memberEnd="_WP_ee_Entity _WP_base_Entity">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_WP_ee_Entity" name="extension_Entity" type="_WP_st_Entity" aggregation="composite" association="_WP_ext_Entity"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_WP_st_Value_object" name="Value object">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WP_base_Value_object" name="base_Class" association="_WP_ext_Value_object">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_WP_ext_Value_object" name="E_Value_object_Class1" memberEnd="_WP_ee_Value_object _WP_base_Value_object">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_WP_ee_Value_object" name="extension_Value_object" type="_WP_st_Value_object" aggregation="composite" association="_WP_ext_Value_object"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_WP_st_Domain_service" name="Domain service">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WP_base_Domain_service" name="base_Class" association="_WP_ext_Domain_service">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_WP_ext_Domain_service" name="E_Domain_service_Class1" memberEnd="_WP_ee_Domain_service _WP_base_Domain_service">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_WP_ee_Domain_service" name="extension_Domain_service" type="_WP_st_Domain_service" aggregation="composite" association="_WP_ext_Domain_service"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_WP_st_Aggregate_root" name="Aggregate root">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WP_base_Aggregate_root" name="base_Class" association="_WP_ext_Aggregate_root">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_WP_ext_Aggregate_root" name="E_Aggregate_root_Class1" memberEnd="_WP_ee_Aggregate_root _WP_base_Aggregate_root">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_WP_ee_Aggregate_root" name="extension_Aggregate_root" type="_WP_st_Aggregate_root" aggregation="composite" association="_WP_ext_Aggregate_root"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_WP_st_Adapter" name="Adapter">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WP_base_Adapter" name="base_Class" association="_WP_ext_Adapter">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_WP_ext_Adapter" name="E_Adapter_Class1" memberEnd="_WP_ee_Adapter _WP_base_Adapter">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_WP_ee_Adapter" name="extension_Adapter" type="_WP_st_Adapter" aggregation="composite" association="_WP_ext_Adapter"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_WP_st_microservice" name="microservice">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WP_base_microservice" name="base_Class" association="_WP_ext_microservice">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_WP_ext_microservice" name="E_microservice_Class1" memberEnd="_WP_ee_microservice _WP_base_microservice">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_WP_ee_microservice" name="extension_microservice" type="_WP_st_microservice" aggregation="composite" association="_WP_ext_microservice"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_WP_st_frontend" name="frontend">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WP_base_frontend" name="base_Class" association="_WP_ext_frontend">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_WP_ext_frontend" name="E_frontend_Class1" memberEnd="_WP_ee_frontend _WP_base_frontend">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_WP_ee_frontend" name="extension_frontend" type="_WP_st_frontend" aggregation="composite" association="_WP_ext_frontend"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_WP_st_subsystem" name="subsystem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WP_base_subsystem" name="base_Class" association="_WP_ext_subsystem">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_WP_ext_subsystem" name="E_subsystem_Class1" memberEnd="_WP_ee_subsystem _WP_base_subsystem">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_WP_ee_subsystem" name="extension_subsystem" type="_WP_st_subsystem" aggregation="composite" association="_WP_ext_subsystem"/>
+  </packagedElement>
+</uml:Profile>
