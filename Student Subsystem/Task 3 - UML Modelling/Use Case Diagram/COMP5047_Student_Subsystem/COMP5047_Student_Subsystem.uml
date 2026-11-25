@@ -348,4 +348,132 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_wXgOwujtEfGUrL_0VYhxjA" name="warden subsystem" type="_ggCtAOjQEfGFzOOnlfNq2Q" association="_wXfAoOjtEfGUrL_0VYhxjA"/>
     </packagedElement>
   </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_x7MkMOjvEfGvBaEJx3WjQQ" name="FR-ST-2.1 – Digital Key Access Activity Diagram" node="_bYL00OjwEfGvBaEJx3WjQQ _gvB9sOjwEfGvBaEJx3WjQQ _-I0iMOjwEfGvBaEJx3WjQQ _OtiRsOjxEfGvBaEJx3WjQQ _XxZe4OjxEfGvBaEJx3WjQQ _NEQKQOjyEfGvBaEJx3WjQQ _gLYzMOjyEfGvBaEJx3WjQQ _jJTD4Oj0EfGvBaEJx3WjQQ _JlvUoOj1EfGvBaEJx3WjQQ _UzUAUOj1EfGvBaEJx3WjQQ _THtvQOj3EfGvBaEJx3WjQQ _0Q7y4Oj3EfGvBaEJx3WjQQ _xq7kgOj4EfGvBaEJx3WjQQ _SPeNwOj5EfGvBaEJx3WjQQ _k5yX0Oj5EfGvBaEJx3WjQQ _NlQE4Oj6EfGvBaEJx3WjQQ _5US3sOj6EfGvBaEJx3WjQQ _MkFGUOj7EfGvBaEJx3WjQQ _OjTzIOj7EfGvBaEJx3WjQQ _YxAgwOj8EfGvBaEJx3WjQQ" group="_9eExgOjvEfGvBaEJx3WjQQ _E-DKEOjwEfGvBaEJx3WjQQ _LqsBMOjwEfGvBaEJx3WjQQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nRgzQOjwEfGvBaEJx3WjQQ" inPartition="_9eExgOjvEfGvBaEJx3WjQQ" target="_gvB9sOjwEfGvBaEJx3WjQQ" source="_bYL00OjwEfGvBaEJx3WjQQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CAnTIOjxEfGvBaEJx3WjQQ" inPartition="_9eExgOjvEfGvBaEJx3WjQQ" target="_-I0iMOjwEfGvBaEJx3WjQQ" source="_gvB9sOjwEfGvBaEJx3WjQQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_Tno0MOjxEfGvBaEJx3WjQQ" target="_OtiRsOjxEfGvBaEJx3WjQQ" source="_TnqpYOjxEfGvBaEJx3WjQQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_TnxXEOjxEfGvBaEJx3WjQQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_TnxXEejxEfGvBaEJx3WjQQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_dU3HcOjxEfGvBaEJx3WjQQ" target="_dU4VkOjxEfGvBaEJx3WjQQ" source="_OtiRsOjxEfGvBaEJx3WjQQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_dU_DQOjxEfGvBaEJx3WjQQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_dU_DQejxEfGvBaEJx3WjQQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TqrEoOjyEfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ" target="_NEQKQOjyEfGvBaEJx3WjQQ" source="_XxZe4OjxEfGvBaEJx3WjQQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_olZLEOjyEfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ" target="_gLYzMOjyEfGvBaEJx3WjQQ" source="_NEQKQOjyEfGvBaEJx3WjQQ">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_B71O4OjzEfGvBaEJx3WjQQ" name="OpaqueExpression1">
+        <language>Natural Language</language>
+        <body>Not Authorised</body>
+      </guard>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_uDgusOj0EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ" target="_jJTD4Oj0EfGvBaEJx3WjQQ" source="_NEQKQOjyEfGvBaEJx3WjQQ">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_xEZFwOj0EfGvBaEJx3WjQQ" name="OpaqueExpression1">
+        <language>Natural Language</language>
+        <body>Authorised</body>
+      </guard>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_McjJsOj1EfGvBaEJx3WjQQ" target="_JlvUoOj1EfGvBaEJx3WjQQ" source="_MckX0Oj1EfGvBaEJx3WjQQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Mcs6sOj1EfGvBaEJx3WjQQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Mcs6sej1EfGvBaEJx3WjQQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_W-2q0Oj1EfGvBaEJx3WjQQ" target="_W-348Oj1EfGvBaEJx3WjQQ" source="_JlvUoOj1EfGvBaEJx3WjQQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_W_Ab0Oj1EfGvBaEJx3WjQQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_W_Ab0ej1EfGvBaEJx3WjQQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mf0MYOj3EfGvBaEJx3WjQQ" inPartition="_LqsBMOjwEfGvBaEJx3WjQQ" target="_THtvQOj3EfGvBaEJx3WjQQ" source="_UzUAUOj1EfGvBaEJx3WjQQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4yst4Oj3EfGvBaEJx3WjQQ" inPartition="_LqsBMOjwEfGvBaEJx3WjQQ" target="_0Q7y4Oj3EfGvBaEJx3WjQQ" source="_THtvQOj3EfGvBaEJx3WjQQ">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_CHvxsOj4EfGvBaEJx3WjQQ" name="OpaqueExpression1">
+        <language>Natural Language</language>
+        <body>Unlock Successful</body>
+      </guard>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5We68Oj4EfGvBaEJx3WjQQ" inPartition="_LqsBMOjwEfGvBaEJx3WjQQ" target="_xq7kgOj4EfGvBaEJx3WjQQ" source="_THtvQOj3EfGvBaEJx3WjQQ">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_67710Oj4EfGvBaEJx3WjQQ" name="OpaqueExpression1">
+        <language>Natural Language</language>
+        <body>Unlock Failed</body>
+      </guard>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_ea0wUOj5EfGvBaEJx3WjQQ" target="_SPeNwOj5EfGvBaEJx3WjQQ" source="_ea1-cOj5EfGvBaEJx3WjQQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ebDZ0Oj5EfGvBaEJx3WjQQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_ebDZ0ej5EfGvBaEJx3WjQQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_zNtJYOj5EfGvBaEJx3WjQQ" target="_zNuXgOj5EfGvBaEJx3WjQQ" source="_SPeNwOj5EfGvBaEJx3WjQQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_zN59sOj5EfGvBaEJx3WjQQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_zN59sej5EfGvBaEJx3WjQQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_YO0EkOj6EfGvBaEJx3WjQQ" target="_NlQE4Oj6EfGvBaEJx3WjQQ" source="_YO1SsOj6EfGvBaEJx3WjQQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_YPA44Oj6EfGvBaEJx3WjQQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_YPA44ej6EfGvBaEJx3WjQQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_B0R7wOj7EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ" target="_B0Tw8Oj7EfGvBaEJx3WjQQ" source="_NlQE4Oj6EfGvBaEJx3WjQQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_B0fXIOj7EfGvBaEJx3WjQQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_B0fXIej7EfGvBaEJx3WjQQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ooz8YOj7EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ" target="_MkFGUOj7EfGvBaEJx3WjQQ" source="_gLYzMOjyEfGvBaEJx3WjQQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JhwvYOj8EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ" target="_OjTzIOj7EfGvBaEJx3WjQQ" source="_k5yX0Oj5EfGvBaEJx3WjQQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_boMJQOj8EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ" target="_YxAgwOj8EfGvBaEJx3WjQQ" source="_5US3sOj6EfGvBaEJx3WjQQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_9eExgOjvEfGvBaEJx3WjQQ" name="Student" node="_bYL00OjwEfGvBaEJx3WjQQ _gvB9sOjwEfGvBaEJx3WjQQ _-I0iMOjwEfGvBaEJx3WjQQ" edge="_nRgzQOjwEfGvBaEJx3WjQQ _CAnTIOjxEfGvBaEJx3WjQQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_E-DKEOjwEfGvBaEJx3WjQQ" name="Student Subsystem" node="_OtiRsOjxEfGvBaEJx3WjQQ _XxZe4OjxEfGvBaEJx3WjQQ _NEQKQOjyEfGvBaEJx3WjQQ _gLYzMOjyEfGvBaEJx3WjQQ _jJTD4Oj0EfGvBaEJx3WjQQ _SPeNwOj5EfGvBaEJx3WjQQ _k5yX0Oj5EfGvBaEJx3WjQQ _NlQE4Oj6EfGvBaEJx3WjQQ _5US3sOj6EfGvBaEJx3WjQQ _MkFGUOj7EfGvBaEJx3WjQQ _OjTzIOj7EfGvBaEJx3WjQQ _YxAgwOj8EfGvBaEJx3WjQQ" edge="_TqrEoOjyEfGvBaEJx3WjQQ _olZLEOjyEfGvBaEJx3WjQQ _uDgusOj0EfGvBaEJx3WjQQ _B0R7wOj7EfGvBaEJx3WjQQ _ooz8YOj7EfGvBaEJx3WjQQ _JhwvYOj8EfGvBaEJx3WjQQ _boMJQOj8EfGvBaEJx3WjQQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_LqsBMOjwEfGvBaEJx3WjQQ" name="Electronic Door Lock" node="_JlvUoOj1EfGvBaEJx3WjQQ _UzUAUOj1EfGvBaEJx3WjQQ _THtvQOj3EfGvBaEJx3WjQQ _0Q7y4Oj3EfGvBaEJx3WjQQ _xq7kgOj4EfGvBaEJx3WjQQ" edge="_mf0MYOj3EfGvBaEJx3WjQQ _4yst4Oj3EfGvBaEJx3WjQQ _5We68Oj4EfGvBaEJx3WjQQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_bYL00OjwEfGvBaEJx3WjQQ" name="" outgoing="_nRgzQOjwEfGvBaEJx3WjQQ" inPartition="_9eExgOjvEfGvBaEJx3WjQQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_gvB9sOjwEfGvBaEJx3WjQQ" name="Open Digital Key in Mobile App" incoming="_nRgzQOjwEfGvBaEJx3WjQQ" outgoing="_CAnTIOjxEfGvBaEJx3WjQQ" inPartition="_9eExgOjvEfGvBaEJx3WjQQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-I0iMOjwEfGvBaEJx3WjQQ" name="Select Door to Unlock" incoming="_CAnTIOjxEfGvBaEJx3WjQQ" inPartition="_9eExgOjvEfGvBaEJx3WjQQ">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_TnqpYOjxEfGvBaEJx3WjQQ" name="doorID" outgoing="_Tno0MOjxEfGvBaEJx3WjQQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_TnrQcOjxEfGvBaEJx3WjQQ" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_OtiRsOjxEfGvBaEJx3WjQQ" name="Selected Door ID" incoming="_Tno0MOjxEfGvBaEJx3WjQQ" outgoing="_dU3HcOjxEfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_Otjf0OjxEfGvBaEJx3WjQQ" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_XxZe4OjxEfGvBaEJx3WjQQ" name="Check Student Access Permissions" outgoing="_TqrEoOjyEfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_dU4VkOjxEfGvBaEJx3WjQQ" name="doorID" incoming="_dU3HcOjxEfGvBaEJx3WjQQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_dU48oOjxEfGvBaEJx3WjQQ" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_NEQKQOjyEfGvBaEJx3WjQQ" name="" incoming="_TqrEoOjyEfGvBaEJx3WjQQ" outgoing="_olZLEOjyEfGvBaEJx3WjQQ _uDgusOj0EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_gLYzMOjyEfGvBaEJx3WjQQ" name="Display Access Denied" incoming="_olZLEOjyEfGvBaEJx3WjQQ" outgoing="_ooz8YOj7EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_jJTD4Oj0EfGvBaEJx3WjQQ" name="Generate Unlock Request" incoming="_uDgusOj0EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_MckX0Oj1EfGvBaEJx3WjQQ" name="unlockRequest" outgoing="_McjJsOj1EfGvBaEJx3WjQQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_Mck-4Oj1EfGvBaEJx3WjQQ" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_JlvUoOj1EfGvBaEJx3WjQQ" name="Unlock Request" incoming="_McjJsOj1EfGvBaEJx3WjQQ" outgoing="_W-2q0Oj1EfGvBaEJx3WjQQ" inPartition="_LqsBMOjwEfGvBaEJx3WjQQ">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_JlxJ0Oj1EfGvBaEJx3WjQQ" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_UzUAUOj1EfGvBaEJx3WjQQ" name="Process Unlock Request" outgoing="_mf0MYOj3EfGvBaEJx3WjQQ" inPartition="_LqsBMOjwEfGvBaEJx3WjQQ">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_W-348Oj1EfGvBaEJx3WjQQ" name="Unlock Request" incoming="_W-2q0Oj1EfGvBaEJx3WjQQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_W-4gAOj1EfGvBaEJx3WjQQ" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_THtvQOj3EfGvBaEJx3WjQQ" name="" incoming="_mf0MYOj3EfGvBaEJx3WjQQ" outgoing="_4yst4Oj3EfGvBaEJx3WjQQ _5We68Oj4EfGvBaEJx3WjQQ" inPartition="_LqsBMOjwEfGvBaEJx3WjQQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0Q7y4Oj3EfGvBaEJx3WjQQ" name="Confirm Door Unlocked" incoming="_4yst4Oj3EfGvBaEJx3WjQQ" inPartition="_LqsBMOjwEfGvBaEJx3WjQQ">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_ea1-cOj5EfGvBaEJx3WjQQ" name="successResponse" outgoing="_ea0wUOj5EfGvBaEJx3WjQQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_ea3MkOj5EfGvBaEJx3WjQQ" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xq7kgOj4EfGvBaEJx3WjQQ" name="Report Unlock Failure" incoming="_5We68Oj4EfGvBaEJx3WjQQ" inPartition="_LqsBMOjwEfGvBaEJx3WjQQ">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_YO1SsOj6EfGvBaEJx3WjQQ" name="failureResponse" outgoing="_YO0EkOj6EfGvBaEJx3WjQQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_YO2g0Oj6EfGvBaEJx3WjQQ" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_SPeNwOj5EfGvBaEJx3WjQQ" name="Unlock Success Response" incoming="_ea0wUOj5EfGvBaEJx3WjQQ" outgoing="_zNtJYOj5EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_SPfb4Oj5EfGvBaEJx3WjQQ" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_k5yX0Oj5EfGvBaEJx3WjQQ" name="Display Access Granted" outgoing="_JhwvYOj8EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_zNuXgOj5EfGvBaEJx3WjQQ" name="successResponse" incoming="_zNtJYOj5EfGvBaEJx3WjQQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_zNu-kOj5EfGvBaEJx3WjQQ" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_NlQE4Oj6EfGvBaEJx3WjQQ" name="Unlock Failure Response" incoming="_YO0EkOj6EfGvBaEJx3WjQQ" outgoing="_B0R7wOj7EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_NlRTAOj6EfGvBaEJx3WjQQ" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5US3sOj6EfGvBaEJx3WjQQ" name="Display Unlock Failure" outgoing="_boMJQOj8EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_B0Tw8Oj7EfGvBaEJx3WjQQ" name="failureResponse" incoming="_B0R7wOj7EfGvBaEJx3WjQQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_B0UYAOj7EfGvBaEJx3WjQQ" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_MkFGUOj7EfGvBaEJx3WjQQ" name="" incoming="_ooz8YOj7EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_OjTzIOj7EfGvBaEJx3WjQQ" name="" incoming="_JhwvYOj8EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_YxAgwOj8EfGvBaEJx3WjQQ" name="" incoming="_boMJQOj8EfGvBaEJx3WjQQ" inPartition="_E-DKEOjwEfGvBaEJx3WjQQ"/>
+  </packagedElement>
 </uml:Model>
