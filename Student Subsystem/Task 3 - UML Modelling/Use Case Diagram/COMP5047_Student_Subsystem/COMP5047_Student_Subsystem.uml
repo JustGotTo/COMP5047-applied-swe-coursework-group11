@@ -4,8 +4,12 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_1d5TMOdgEfGyi7MFXjpnTg" name="Student Subsystem">
-    <packagedElement xmi:type="uml:Class" xmi:id="_QeTJAOdiEfGyi7MFXjpnTg" name="Student Mobile Application Subsystem" useCase="_p6jEcOdjEfGyi7MFXjpnTg">
+    <packagedElement xmi:type="uml:Class" xmi:id="_QeTJAOdiEfGyi7MFXjpnTg" name="Student Mobile Application Subsystem" useCase="_p6jEcOdjEfGyi7MFXjpnTg _W1YSsOgZEfGFzOOnlfNq2Q _KhuEgOggEfGFzOOnlfNq2Q __a_LMOggEfGFzOOnlfNq2Q _cpshEOghEfGFzOOnlfNq2Q">
       <ownedUseCase xmi:type="uml:UseCase" xmi:id="_p6jEcOdjEfGyi7MFXjpnTg" name="FR-ST-2.1 - Unlock Authorised Doors Using DIgital Key" subject="_QeTJAOdiEfGyi7MFXjpnTg"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_W1YSsOgZEfGFzOOnlfNq2Q" name="FR-ST-1.1 - Authenticate Student Using University SSO" subject="_QeTJAOdiEfGyi7MFXjpnTg"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_KhuEgOggEfGFzOOnlfNq2Q" name="FR-ST-1.2 Manage Lifestyle and Compatibility " subject="_QeTJAOdiEfGyi7MFXjpnTg"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="__a_LMOggEfGFzOOnlfNq2Q" name="FR-ST -1.3 - Tenancy Contract management" subject="_QeTJAOdiEfGyi7MFXjpnTg"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_cpshEOghEfGFzOOnlfNq2Q" name="FR-ST-2.2 - Access Room Using Offline Digital Key" subject="_QeTJAOdiEfGyi7MFXjpnTg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_iJ8O4OdjEfGyi7MFXjpnTg" name="Student"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_6KJqIOdkEfGyi7MFXjpnTg" memberEnd="_6KLfUOdkEfGyi7MFXjpnTg _6KLfUedkEfGyi7MFXjpnTg">
@@ -16,5 +20,41 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_6KLfUedkEfGyi7MFXjpnTg" name="student" type="_iJ8O4OdjEfGyi7MFXjpnTg" association="_6KJqIOdkEfGyi7MFXjpnTg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_m0njYOdlEfGyi7MFXjpnTg" name="Electronic Door Lock"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ywN30OgXEfGFzOOnlfNq2Q" visibility="package" memberEnd="_ywZeAOgXEfGFzOOnlfNq2Q _ywaFEOgXEfGFzOOnlfNq2Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ywYP4OgXEfGFzOOnlfNq2Q" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ywY28OgXEfGFzOOnlfNq2Q" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ywZeAOgXEfGFzOOnlfNq2Q" name="student mobile application subsystem" type="_p6jEcOdjEfGyi7MFXjpnTg" association="_ywN30OgXEfGFzOOnlfNq2Q"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ywaFEOgXEfGFzOOnlfNq2Q" name="electronic door lock" type="_m0njYOdlEfGyi7MFXjpnTg" association="_ywN30OgXEfGFzOOnlfNq2Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e2wLUOgdEfGFzOOnlfNq2Q" memberEnd="_e2wyYugdEfGFzOOnlfNq2Q _e2xZcOgdEfGFzOOnlfNq2Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e2wyYOgdEfGFzOOnlfNq2Q" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e2wyYegdEfGFzOOnlfNq2Q" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_e2wyYugdEfGFzOOnlfNq2Q" name="fr-st-1.1 - authenticate student using university sso" type="_W1YSsOgZEfGFzOOnlfNq2Q" association="_e2wLUOgdEfGFzOOnlfNq2Q"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_e2xZcOgdEfGFzOOnlfNq2Q" name="student" type="_iJ8O4OdjEfGyi7MFXjpnTg" association="_e2wLUOgdEfGFzOOnlfNq2Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_5w8g4OgdEfGFzOOnlfNq2Q" name="University SSO Identity Provider"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_42kRYOgfEfGFzOOnlfNq2Q" memberEnd="_42k4cugfEfGFzOOnlfNq2Q _42k4c-gfEfGFzOOnlfNq2Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_42k4cOgfEfGFzOOnlfNq2Q" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_42k4cegfEfGFzOOnlfNq2Q" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_42k4cugfEfGFzOOnlfNq2Q" name="fr-st-1.1 - authenticate student using university sso" type="_W1YSsOgZEfGFzOOnlfNq2Q" association="_42kRYOgfEfGFzOOnlfNq2Q"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_42k4c-gfEfGFzOOnlfNq2Q" name="university sso identity provider" type="_5w8g4OgdEfGFzOOnlfNq2Q" association="_42kRYOgfEfGFzOOnlfNq2Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_XOU6AOggEfGFzOOnlfNq2Q" memberEnd="_XOWIIeggEfGFzOOnlfNq2Q _XOWIIuggEfGFzOOnlfNq2Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XOVhEOggEfGFzOOnlfNq2Q" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XOWIIOggEfGFzOOnlfNq2Q" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_XOWIIeggEfGFzOOnlfNq2Q" name="fr -st 1.2 manage lifestyle and compatibility " type="_KhuEgOggEfGFzOOnlfNq2Q" association="_XOU6AOggEfGFzOOnlfNq2Q"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_XOWIIuggEfGFzOOnlfNq2Q" name="student" type="_iJ8O4OdjEfGyi7MFXjpnTg" association="_XOU6AOggEfGFzOOnlfNq2Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PhG6MOghEfGFzOOnlfNq2Q" memberEnd="_PhG6M-ghEfGFzOOnlfNq2Q _PhG6NOghEfGFzOOnlfNq2Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PhG6MeghEfGFzOOnlfNq2Q" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PhG6MughEfGFzOOnlfNq2Q" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_PhG6M-ghEfGFzOOnlfNq2Q" name="fr-st -1.3 - tenancy contract management" type="__a_LMOggEfGFzOOnlfNq2Q" association="_PhG6MOghEfGFzOOnlfNq2Q"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_PhG6NOghEfGFzOOnlfNq2Q" name="student" type="_iJ8O4OdjEfGyi7MFXjpnTg" association="_PhG6MOghEfGFzOOnlfNq2Q"/>
+    </packagedElement>
   </packagedElement>
 </uml:Model>
